@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite it.
+title: "JTAER Replication Package: IT × Supply Chain Shocks and Working Capital"
+authors:
+  - family-names: Jiang
+    given-names: Tsai-Hsin
+    affiliation: System Development Center, National Chung-Shan Institute of Science and Technology, Taoyuan, Taiwan; Department of Industrial Engineering and Management, National Yang Ming Chiao Tung University, Hsinchu 30010, Taiwan
+  - family-names: Chang
+    given-names: Yung-Chia
+    affiliation: Department of Industrial Engineering and Management, National Yang Ming Chiao Tung University, Hsinchu 30010, Taiwan
+  - family-names: Lai
+    given-names: Ming-Shan
+    affiliation: System Development Center, National Chung-Shan Institute of Science and Technology, Taoyuan, Taiwan
+date-released: 2025-09-14
+version: "0.1.0"
+license: MIT
