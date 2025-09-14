@@ -1,0 +1,12 @@
+
+pandas
+numpy
+scipy
+statsmodels
+linearmodels
+scikit-learn
+pyarrow
+matplotlib
+pandera
+pytest
+ruff

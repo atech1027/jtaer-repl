@@ -1,0 +1,18 @@
+
+[project]
+name = "jtaer-repl"
+version = "0.1.0"
+description = "Reproducible research package for JTAER paper"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "I", "B", "W"]
+exclude = ["data", "reports"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]

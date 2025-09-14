@@ -1,0 +1,35 @@
+
+# Data (keep placeholders, ignore real data)
+data/raw/*
+!data/raw/README.md
+!data/raw/external/**
+!data/raw/10k/**
+data/interim/**
+data/processed/**
+
+# Reports
+reports/figures/**
+reports/tables/**
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Envs
+.env
+.venv
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+
+# DVC
+.dvc/
+.dvcignore
+
+# Notebooks
+notebooks/
+
+# Private licensed data (never commit)
+data/private/**

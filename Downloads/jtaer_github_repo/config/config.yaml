@@ -1,0 +1,20 @@
+# Pipeline configuration (edit paths and options for your private data)
+paths:
+  compustat_csv: data/private/compustat_fundq.csv
+  tenk_raw_dir:  data/private/10k_raw
+  gscpi_csv:     data/raw/external/gscpi.csv        # keep or replace with your own
+  it_labels_csv: data/raw/it_labels.csv             # optional supervised labels
+  industry_waves_csv: data/raw/external/industry_waves.csv  # optional IV spec
+  custom_events_csv:  data/raw/external/event_dates.csv      # optional treat dates
+
+treat:
+  rule: gscpi_thresh        # one of: gscpi_thresh, industry_topdecile, custom_dates
+  gscpi_thresh: 0.5
+  shock_col: gscpi          # change if you use another external shock column
+
+iv:
+  spec: peer_it_lagK        # one of: peer_it_lagK, industry_wave
+  lag: 4
+
+run:
+  train_it: true            # set false if you don't have it_labels.csv
